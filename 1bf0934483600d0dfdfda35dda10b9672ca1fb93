@@ -1,0 +1,1 @@
+Remove copy at end of kernel.sh becuse dtbs folders no longer created (see https://gitlab.alpinelinux.org/alpine/aports/-/commit/fb542395e33ab9eaab13d5cf40029173240c7836)
