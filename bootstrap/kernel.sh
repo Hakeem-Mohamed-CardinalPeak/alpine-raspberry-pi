@@ -21,6 +21,13 @@ include usercfg.txt
 EOF
   
 cat <<EOF > /boot/usercfg.txt
+disable_splash=1
+boot_delay=0
+
+dtparam=audio=on
+disable_overscan=1
+dtoverlay=vc4-fkms-v3d
+gpu_mem=256
 EOF
 
 # fstab
